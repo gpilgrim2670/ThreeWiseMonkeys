@@ -16,10 +16,10 @@ Hear <- function(x) {
   # file_path <- here::here("audio", "No_Evil.wav")
   # tuneR::setWavPlayer("/Applications/'QuickTime Player.app'/Contents/MacOS/'QuickTime Player'")
   if(Sys.info()[['sysname']] == "Darwin") {
-    print("ThreeWiseMonkeys requires you supply a .wav player as for example tuneR::setWavPlayer(path to player) prior to calling Here()")
+    message("ThreeWiseMonkeys requires you supply a .wav player as for example tuneR::setWavPlayer(path to player) prior to calling Here()")
   tuneR::play(file_path)
   } else {
-    print("ThreeWiseMonkeys will launch your default .wav player.")
+    message("ThreeWiseMonkeys will launch your default .wav player.")
     tuneR::play(file_path)
   }
 }
