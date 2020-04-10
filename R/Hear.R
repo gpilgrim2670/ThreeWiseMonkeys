@@ -13,6 +13,6 @@
 
 Hear <- function(x) {
   file_path <- system.file("audio", "No_Evil.wav", package = "ThreeWiseMonkeys")
-  file_path <- "audio/No_Evil.wav"
+  file_path <- here::here("inst", "audio", "No_Evil_GP.wav")
   tuneR::play(file_path)
 }
