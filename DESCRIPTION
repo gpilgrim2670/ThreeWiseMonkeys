@@ -1,0 +1,14 @@
+Package: ThreeWiseMonkeys
+Title: This Package Is An Implementation of the Japanese Pictoral Maxim "See No Evil, Hear No Evil, Speak No Evil".
+Version: 0.1.0
+Authors@R: 
+    person(given = "Greg",
+           family = "Pilgrim",
+           role = c("aut", "cre"),
+           email = "gpilgrim2670@gmail.com",
+           comment = c(ORCID = "0000-0001-7831-442X"))
+Description: This package does nothing, but perhaps in an entertaining or informative fashion
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
