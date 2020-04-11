@@ -10,11 +10,14 @@ Speak(x)
 \item{x}{an input}
 }
 \value{
-The string \code{"No Evil."}.
+Plays an audio clip of the words "No Evil.".
 }
 \description{
 speak no evil
 }
 \examples{
-Speak(1)
+\dontrun{
+Hear(1)
+}
+
 }

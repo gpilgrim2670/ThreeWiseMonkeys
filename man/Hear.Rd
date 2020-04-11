@@ -10,12 +10,16 @@ Hear(x)
 \item{x}{an input}
 }
 \value{
-Plays an audio clip of the words "No Evil.".
+The string \code{"No Evil."}.
 }
 \description{
 hear no evil
 }
 \examples{
 Hear(1)
-
+Hear("No Evil")
+no_evil <- "good stuff"
+Hear(no_evil)
+evil <- "good_stuff"
+Hear(evil)
 }

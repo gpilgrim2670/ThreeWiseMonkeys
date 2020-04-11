@@ -1,25 +1,28 @@
 #' hear no evil
 #'
-#' @importFrom tuneR play
-#'
+#' @importFrom stringr str_replace_all
+#' @importFrom stringr str_detect
 #' @param x an input
-#' @return Plays an audio clip of the words "No Evil.".
+#' @return The string \code{"No Evil."}.
 #'
 #' @export
 #'
 #' @examples
 #' Hear(1)
-#'
+#' Hear("No Evil")
+#' no_evil <- "good stuff"
+#' Hear(no_evil)
+#' evil <- "good_stuff"
+#' Hear(evil)
 
 Hear <- function(x) {
-  file_path <- system.file("audio", "No_Evil.wav", package = "ThreeWiseMonkeys")
-  # file_path <- here::here("audio", "No_Evil.wav")
-  # tuneR::setWavPlayer("/Applications/'QuickTime Player.app'/Contents/MacOS/'QuickTime Player'")
-  if(Sys.info()[['sysname']] == "Darwin") {
-    message("ThreeWiseMonkeys requires you supply a .wav player as for example tuneR::setWavPlayer(path to player) prior to calling Here()")
-  tuneR::play(file_path)
+  var_name <- tolower(deparse(substitute(x)))
+  var_name <- stringr::str_replace_all(var_name, "[:punct:]", " ")
+  x <- tolower(x)
+  x <- stringr::str_replace_all(x, "[:punct:]", " ")
+  if(stringr::str_detect(x, "no\\s{0,}evil") | stringr::str_detect(var_name, "no\\s{0,}evil")) {
+    return("I hear you!")
   } else {
-    message("ThreeWiseMonkeys will launch your default .wav player.")
-    tuneR::play(file_path)
+    return("I can't hear you!")
   }
 }
