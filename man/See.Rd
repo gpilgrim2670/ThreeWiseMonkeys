@@ -4,10 +4,7 @@
 \alias{See}
 \title{see no evil}
 \usage{
-See(x)
-}
-\arguments{
-\item{x}{an input}
+See()
 }
 \value{
 A plot depicting \code{"No Evil."}.
@@ -16,5 +13,5 @@ A plot depicting \code{"No Evil."}.
 see no evil
 }
 \examples{
-See(1)
+See()
 }

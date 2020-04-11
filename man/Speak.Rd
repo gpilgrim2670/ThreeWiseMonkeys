@@ -4,10 +4,7 @@
 \alias{Speak}
 \title{speak no evil}
 \usage{
-Speak(x)
-}
-\arguments{
-\item{x}{an input}
+Speak()
 }
 \value{
 Plays an audio clip of the words "No Evil.".
@@ -17,7 +14,7 @@ speak no evil
 }
 \examples{
 \dontrun{
-Hear(1)
+Speak()
 }
 
 }

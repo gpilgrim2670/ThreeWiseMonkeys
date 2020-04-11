@@ -9,7 +9,8 @@ Authors@R:
            comment = c(ORCID = "0000-0001-7831-442X"))
 Description: This package does nothing useful, but perhaps does that nothing in an entertaining or informative fashion.
 Imports:
-    tuneR
+    tuneR,
+    stringr
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
