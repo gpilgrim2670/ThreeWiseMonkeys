@@ -1,8 +1,15 @@
 #' speak no evil
 #'
+#' Plays an audioclip of the words "No evil".
+#' On Windows and Linux machines the function should directly call the system default player of .wav files.
+#' On Mac machines it might be nessisary to set the default with something like tuneR::setWavPlayer("/Applications/'QuickTime Player.app'/Contents/MacOS/'QuickTime Player'").
+#'
+#' @author Greg Pilgrim \email{gpilgrim2670@@gmail.com}
+#'
 #' @importFrom tuneR play
 #' @return Plays an audio clip of the words "No Evil.".
 #'
+#' @param ... an input, doesn't matter, isn't used
 #' @export
 #'
 #' @examples \dontrun{
@@ -10,7 +17,7 @@
 #' }
 #'
 
-Speak <- function() {
+Speak <- function(...) {
   file_path <- system.file("audio", "No_Evil.wav", package = "ThreeWiseMonkeys")
   # file_path <- here::here("audio", "No_Evil.wav")
   # tuneR::setWavPlayer("/Applications/'QuickTime Player.app'/Contents/MacOS/'QuickTime Player'")

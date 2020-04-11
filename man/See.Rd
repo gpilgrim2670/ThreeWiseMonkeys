@@ -2,16 +2,22 @@
 % Please edit documentation in R/See.R
 \name{See}
 \alias{See}
-\title{see no evil}
+\title{See No Evil}
 \usage{
-See()
+See(...)
+}
+\arguments{
+\item{...}{an input, doesn't matter, isn't used}
 }
 \value{
 A plot depicting \code{"No Evil."}.
 }
 \description{
-see no evil
+Allows the user to see no evil - specifically a plot containing the text "No Evil.".  Fun for the whole family.
 }
 \examples{
 See()
+}
+\author{
+Greg Pilgrim \email{gpilgrim2670@gmail.com}
 }
