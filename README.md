@@ -5,6 +5,8 @@
 
 ![](inst/logos/Monkeys_Horizontal.png)
 
+
+## Functions
 Correspondingly `ThreeWiseMonkeys` has three functions: `See`, `Hear` and `Speak`.
 
 ### See
