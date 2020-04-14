@@ -1,5 +1,5 @@
 Package: ThreeWiseMonkeys
-Title: This Package Is An Implementation of the Japanese Pictorial Maxim "See No Evil, Hear No Evil, Speak No Evil"
+Title: An R Implementation of the Japanese Pictorial Maxim "See No Evil, Hear No Evil, Speak No Evil"
 Version: 0.1.0
 Authors@R: 
     c(person(given = "Greg",
@@ -10,7 +10,7 @@ Authors@R:
       person(given = "Caitlin",
              family = "Baldwin",
              role = "ctb"))
-Description: This package does nothing useful, but perhaps does that nothing in an entertaining or informative fashion.
+Description: This package does nothing useful, but perhaps it does that nothing in an entertaining or informative fashion.
 Imports:
     tuneR,
     stringr
