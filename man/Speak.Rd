@@ -15,7 +15,7 @@ Plays an audio clip of the words "No Evil.".
 \description{
 Plays an audioclip of the words "No evil".
 On Windows and Linux machines the function should directly call the system default player of .wav files.
-On Mac machines it might be nessisary to set the default with something like tuneR::setWavPlayer("/Applications/'QuickTime Player.app'/Contents/MacOS/'QuickTime Player'").
+On Mac machines it might be necessary to set the default with something like tuneR::setWavPlayer("/Applications/'QuickTime Player.app'/Contents/MacOS/'QuickTime Player'").
 }
 \examples{
 \dontrun{

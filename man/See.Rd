@@ -10,10 +10,10 @@ See(...)
 \item{...}{an input, doesn't matter, isn't used}
 }
 \value{
-A plot depicting \code{"No Evil."}.
+A plot depicting \code{"No evil."}.
 }
 \description{
-Allows the user to see no evil - specifically a plot containing the text "No Evil.".  Fun for the whole family.
+Allows the user to see no evil - specifically a plot containing the text "No evil.".  Fun for the whole family.
 }
 \examples{
 See()
