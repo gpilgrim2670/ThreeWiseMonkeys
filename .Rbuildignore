@@ -1,2 +1,5 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
+^inst/logos/three_monkeys_transparent\.png$
+^inst/logos/three_monkeys_raw\.png$
+^R/logo\.R$
