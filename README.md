@@ -1,4 +1,4 @@
-# SwimmeR <img src="inst/logos/hex_logo.png" width="131px" height="140px" align="right" style="padding-left:10px;background-color:white;" />
+# Three Wise Monkeys <img src="inst/logos/hex_logo.png" width="131px" height="140px" align="right" style="padding-left:10px;background-color:white;" />
 
 ## Introduction
 `ThreeWiseMonkeys` is an R implementation of the Japanese pictorial maxim "see no evil, hear no evil, speak no evil".  It is otherwise useless.
