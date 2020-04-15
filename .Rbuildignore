@@ -4,3 +4,5 @@
 ^inst/logos/three_monkeys_raw\.png$
 ^R/logo\.R$
 ^cran-comments\.md$
+^CRAN-RELEASE$
+^LICENSE\.md$
