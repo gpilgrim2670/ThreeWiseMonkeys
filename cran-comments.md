@@ -1,6 +1,6 @@
 ## Resubmission
 
-* removed "+ file LICENSE" from license field to reflect that only an MIT license is used
+* fixed issue with respect to license field
 * removed "An R Implementation" from title field
 
 ## Test environments
