@@ -10,7 +10,7 @@ Authors@R:
       person(given = "Caitlin",
              family = "Baldwin",
              role = "ctb"))
-Description: This package does nothing useful, but perhaps it does that nothing in an entertaining or informative fashion.
+Description: Does nothing useful, but perhaps does that nothing in an entertaining or informative fashion.
 Imports:
     tuneR,
     stringr

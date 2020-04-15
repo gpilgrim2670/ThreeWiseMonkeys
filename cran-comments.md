@@ -1,5 +1,6 @@
 ## Resubmission
 
+* Removed "this package" from description field
 * fixed issue with respect to license field
 * removed "An R Implementation" from title field
 
