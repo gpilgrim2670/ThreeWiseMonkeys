@@ -1,5 +1,10 @@
 # Three Wise Monkeys <img src="inst/logos/hex_logo.png" width="131px" height="140px" align="right" style="padding-left:10px;background-color:white;" />
 
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/ThreeWiseMonkeys?color=blue)](https://cran.r-project.org/package=ThreeWiseMonkeys)
+[![](http://cranlogs.r-pkg.org/badges/grand-total/ThreeWiseMonkeys?color=blue)](https://cran.r-project.org/package=ThreeWiseMonkeys)
+[![](http://cranlogs.r-pkg.org/badges/ThreeWiseMonkeys?color=blue)](https://cran.r-project.org/package=ThreeWiseMonkeys)
+[![](http://cranlogs.r-pkg.org/badges/last-week/ThreeWiseMonkeys?color=blue)](https://cran.r-project.org/package=ThreeWiseMonkeys)
+
 ## Introduction
 `ThreeWiseMonkeys` is an R implementation of the Japanese pictorial maxim "see no evil, hear no evil, speak no evil".  It is otherwise useless, but perhaps in a fun way.
 
