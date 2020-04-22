@@ -4,17 +4,25 @@
 \alias{Speak}
 \title{speak no evil}
 \usage{
-Speak(x)
+Speak(...)
 }
 \arguments{
-\item{x}{an input}
+\item{...}{an input, doesn't matter, isn't used}
 }
 \value{
-The string \code{"No Evil."}.
+Plays an audio clip of the words "No Evil.".
 }
 \description{
-speak no evil
+Plays an audioclip of the words "No evil".
+On Windows and Linux machines the function should directly call the system default player of .wav files.
+On Mac machines it might be necessary to set the default with something like tuneR::setWavPlayer("/Applications/'QuickTime Player.app'/Contents/MacOS/'QuickTime Player'").
 }
 \examples{
-Speak(1)
+\dontrun{
+Speak()
+}
+
+}
+\author{
+Greg Pilgrim \email{gpilgrim2670@gmail.com}
 }

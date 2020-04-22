@@ -2,19 +2,22 @@
 % Please edit documentation in R/See.R
 \name{See}
 \alias{See}
-\title{see no evil}
+\title{See No Evil}
 \usage{
-See(x)
+See(...)
 }
 \arguments{
-\item{x}{an input}
+\item{...}{an input, doesn't matter, isn't used}
 }
 \value{
-A plot depicting \code{"No Evil."}.
+A plot depicting \code{"No evil."}.
 }
 \description{
-see no evil
+Allows the user to see no evil - specifically a plot containing the text "No evil.".  Fun for the whole family.
 }
 \examples{
-See(1)
+See()
+}
+\author{
+Greg Pilgrim \email{gpilgrim2670@gmail.com}
 }

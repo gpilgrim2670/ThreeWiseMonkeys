@@ -10,12 +10,23 @@ Hear(x)
 \item{x}{an input}
 }
 \value{
-Plays an audio clip of the words "No Evil.".
+The string \code{"No Evil."}.
 }
 \description{
-hear no evil
+A function that will only "hear" an input containing variants on the string `"no evil"`.
+`Hear` is not case sensitive and will remove punctuation so `"no_Evil"` and `"nO- _eVil"` will also be heard.
+`Hear` is also sensitive to value names so passing an object `no_evil <- "asdf"` containing any arbitrary strings will also be heard.
+Anything that is not specifically `"no evil"` or some acceptable variant is assumed to be evil and will not be heard.
 }
 \examples{
 Hear(1)
-
+Hear("No Evil")
+no_evil <- "good stuff"
+Hear(no_evil)
+evil <- "good_stuff"
+Hear(evil)
+Hear(NA)
+}
+\author{
+Greg Pilgrim \email{gpilgrim2670@gmail.com}
 }
